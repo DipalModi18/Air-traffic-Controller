@@ -1,0 +1,2 @@
+# Air-traffic-Controller
+Client Server application in Java which uses socket programming concept to create communication between the Airport server and the Aircraft client. Multiple Aircraft client sends request to the Server in order to schedule landing using the runway. The Airport server creates threads for each of the pending requests and gives synchronized access to one of the aircraft client based on priority and arrival time. 
